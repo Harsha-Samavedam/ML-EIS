@@ -3,42 +3,14 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
-        <entry key="\Impedance &amp; Phase Data.csv">
+        <entry key="/data/20230101_pipe_electrode_10ml_25cdistilledwater_2ml_acetone_styrofoam_5kohm_midpoint_calibration.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="\Random Capacity Impedence.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\resistor.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\seriesrc2.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\seriesrc3.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\water data.csv">
+        <entry key="/data/Random Capacity Impedence.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />

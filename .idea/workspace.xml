@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="561aa0af-cb97-4a76-9029-42345aeb3085" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/model/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/model.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/util/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/util/utils.py" afterDir="false" />
-    </list>
+    <list default="true" id="561aa0af-cb97-4a76-9029-42345aeb3085" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,7 +82,7 @@
       <workItem from="1673066753327" duration="6034000" />
       <workItem from="1673672181645" duration="2281000" />
       <workItem from="1673674486018" duration="24000" />
-      <workItem from="1673820987416" duration="3741000" />
+      <workItem from="1673820987416" duration="4135000" />
     </task>
     <servers />
   </component>

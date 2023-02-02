@@ -1,1 +1,0 @@
-# This is only for accessing directories throughout the project by providing a master package from which to traverse to reach others at differing hierarchical levels.

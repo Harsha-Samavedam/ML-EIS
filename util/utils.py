@@ -21,6 +21,26 @@ def drop_outliers(dx : pd.DataFrame):
 def prepare_data(filename : str, len : int):
     drop_outliers(average_data(filename, len)).to_csv(f'{filename}.csv')
 
+def type_dict(type : str):
+    dict = {
+        'Polystyrene' : 0,
+        'Nitrate' : 1,
+        'Sunscreen' : 2,
+        'Plain': 3,
+    }
+    return np.array(dict[type])
 
+def create_data_matrix(filenames, types):
+    X = np.zeros(shape=(len(filenames), 512, 2))
+    for i in range(len(filenames)):
+        df = pd.read_csv(filenames[i])
+        impedance = np.array(df['Impedance'])
+        phase = np.array(df['Phase'])
+        entry = np.zeros(shape=(512, 2))
+        entry[:, 0] = impedance
+        entry[:, 1] = phase
+        X[i, :, :] = entry
+    X = np.reshape(X, newshape=(len(filenames), 1024))
+    y = np.array(types)
 
-
+    return X, y

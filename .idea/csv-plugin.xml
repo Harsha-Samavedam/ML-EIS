@@ -3,13 +3,6 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
-        <entry key="/data/20230101_pipe_electrode_10ml_25cdistilledwater_2ml_acetone_styrofoam_5kohm_midpoint_calibration.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
         <entry key="/data/DI_48mL_PS_2mL_3.csv">
           <value>
             <Attribute>
@@ -17,7 +10,49 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="/data/Random Capacity Impedence.csv">
+        <entry key="\data\DI_48p2mL_PS_1p8mL_5.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\DI_48p8mL_PS_1p2mL_3.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\DI_49.2mL_NI_0.8mL_3.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\DI_49.3mL_NI_0.7mL_2.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\DI_49.3mL_NI_0.7mL_4.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\DI_49.3mL_NI_0.7mL_5.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\TP_49p972mL_NI_0p028ml_4.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />

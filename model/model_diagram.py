@@ -1,7 +1,7 @@
 from sklearn.tree import export_graphviz
 import pickle as pkl
 import os
-from def_model import PKG_DIR
+from dir_model import PKG_DIR
 
 os.chdir(PKG_DIR)
 

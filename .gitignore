@@ -2,3 +2,5 @@
 .DS_Store
 test/*
 model/dot/*
+*.*.swp
+*.swp

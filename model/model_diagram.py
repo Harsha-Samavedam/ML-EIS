@@ -12,8 +12,8 @@ os.chdir('dot')
 SUB = str.maketrans("0123456789", "₀₁₂₃₄₅₆₇₈₉")
 SUP = str.maketrans("0123456789", "⁰¹²³⁴⁵⁶⁷⁸⁹")
 
-for i in range(len(model.estimators_)):
-    export_graphviz(model.estimators_[i], out_file=f'tree{i + 1}.dot',
+for j in range(len(model.estimators_)):
+    export_graphviz(model.estimators_[j], out_file=f'tree{j + 1}.dot',
         feature_names=['Φ' + str((i + 1) // 2).translate(SUB) if (i + 1) % 2 == 0 else '|Z|' + str(((i + 1) // 2) + 1).translate(SUB) for i in range(1024)],
         class_names=['Polystyrene', 'Nitrate', 'Sunscreen', 'Plain'],
         rounded=True, filled=True)

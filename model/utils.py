@@ -23,10 +23,10 @@ def prepare_data(filename : str, len : int):
 
 def type_dict(type : str):
     dict = {
-        'Polystyrene' : 0,
-        'Nitrate' : 1,
-        'Sunscreen' : 2,
-        'Plain': 3,
+        'Polystyrene' : [1, 0, 0, 0],
+        'Nitrate' : [0, 1, 0, 0],
+        'Sunscreen' : [0, 0, 1, 0],
+        'Plain': [0, 0, 0, 1]
     }
     return np.array(dict[type])
 

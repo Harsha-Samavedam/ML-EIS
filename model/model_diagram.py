@@ -5,7 +5,7 @@ from dir_model import PKG_DIR
 
 os.chdir(PKG_DIR)
 
-model = pkl.load(open('MODEL', 'rb'))
+model = pkl.load(open('MODEL_MAT_UPDATED', 'rb'))
 
 os.chdir('dot')
 
@@ -20,3 +20,6 @@ for j in range(len(model.estimators_)):
 
 for i in range(1, len(model.estimators_) + 1):
     os.system(f'dot -Tpng tree{i}.dot -o ../../model_diagram/tree{i}.png')
+
+for i in range(1, len(model.estimators_) + 1):
+    os.system(f'rm tree{i}.dot')

@@ -26,7 +26,10 @@ def type_dict(type : str):
         'Polystyrene' : [1, 0, 0],
         'Nitrate' : [0, 1, 0],
         'Sunscreen' : [0, 0, 1],
-        'Plain': [0, 0, 0]
+        'Plain': [0, 0, 0],
+        'PSS': [1, 0, 1],
+        'PNI': [1, 1, 0],
+        'SNI': [0, 1, 1]
     }
     return np.array(dict[type])
 

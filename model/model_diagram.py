@@ -5,7 +5,7 @@ from dir_model import PKG_DIR
 
 os.chdir(PKG_DIR)
 
-model = pkl.load(open('MODEL_MAT_UPDATED', 'rb'))
+model = pkl.load(open('MODEL_MAT', 'rb'))
 
 os.chdir('dot')
 
